@@ -2,8 +2,8 @@ package go_nuvei
 
 import (
 	"encoding/json"
-	"go-nuvei/nuvei"
-	"go-nuvei/nuvei/model"
+	"github.com/Peller-Tech-Inc/go-nuvei/nuvei"
+	"github.com/Peller-Tech-Inc/go-nuvei/nuvei/model"
 	"log"
 )
 

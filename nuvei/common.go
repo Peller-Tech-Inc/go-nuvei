@@ -3,7 +3,7 @@ package nuvei
 import (
 	"bytes"
 	"encoding/json"
-	"go-nuvei/nuvei/model"
+	"github.com/Peller-Tech-Inc/go-nuvei/nuvei/model"
 	"io"
 	"log"
 	"net/http"

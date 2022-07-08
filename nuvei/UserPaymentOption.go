@@ -1,7 +1,7 @@
 package nuvei
 
 import (
-	"go-nuvei/nuvei/model"
+	"github.com/Peller-Tech-Inc/go-nuvei/nuvei/model"
 )
 
 type userPaymentOption struct {

@@ -1,8 +1,8 @@
 package nuvei
 
 import (
-	"go-nuvei/nuvei/model"
-	"go-nuvei/nuvei/util"
+	"github.com/Peller-Tech-Inc/go-nuvei/nuvei/model"
+	"github.com/Peller-Tech-Inc/go-nuvei/nuvei/util"
 )
 
 // TODO add remain fields here and in constructor

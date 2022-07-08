@@ -1,7 +1,7 @@
 package nuvei
 
 import (
-	"go-nuvei/nuvei/util"
+	"github.com/Peller-Tech-Inc/go-nuvei/nuvei/util"
 	"time"
 )
 
