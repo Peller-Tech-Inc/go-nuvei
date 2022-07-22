@@ -41,6 +41,7 @@ func Initialize(merchantId string, merchantSiteId string, secret string, isLive 
 			isDebug:        isDebug,
 		}
 	}
+	log.Println("Nuvei initialized successfully!")
 }
 
 func CreateRequest(body []byte, action model.NuveiAction, responseObject interface{}) (interface{}, error) {

@@ -32,12 +32,13 @@ type PaymentOption struct {
 }
 
 type Card struct {
-	CardNumber      string `json:"cardNumber"`
-	CardHolderName  string `json:"cardHolderName"`
-	ExpirationMonth string `json:"expirationMonth"`
-	ExpirationYear  string `json:"expirationYear"`
-	CVV             string `json:"CVV"`
-	ThreeD          ThreeD `json:"threeD"`
+	CardNumber      string `json:"cardNumber,omitempty"`
+	CardHolderName  string `json:"cardHolderName,omitempty"`
+	ExpirationMonth string `json:"expirationMonth,omitempty"`
+	ExpirationYear  string `json:"expirationYear,omitempty"`
+	CVV             string `json:"CVV,omitempty"`
+	ThreeD          ThreeD `json:"threeD,omitempty"`
+	CcTempToken     string `json:"ccTempToken,omitempty"`
 }
 
 type ThreeD struct {

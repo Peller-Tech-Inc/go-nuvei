@@ -103,6 +103,15 @@ func GetUPOs(userTokenId string) (*model.UPOsResponse, error) {
 	return resp.(*model.UPOsResponse), nil
 }
 
+func DeleteUPO(userTokenId string) (*model.UPOsResponse, error) {
+	UPOsRequest := NewUPO("", "", userTokenId, "", model.BillingAddress{})
+	resp, err := sendRequest(UPOsRequest, model.DeleteUPO, &model.UPOsResponse{})
+	if err != nil {
+		return nil, err
+	}
+	return resp.(*model.UPOsResponse), nil
+}
+
 func sendRequest(model interface{}, action model.NuveiAction, responseType interface{}) (interface{}, error) {
 	body, err := json.Marshal(model)
 	if err != nil {

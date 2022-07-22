@@ -47,6 +47,7 @@ type PaymentResponse struct {
 	TransactionType       string        `json:"transactionType"`
 	GwExtendedErrorCode   int           `json:"gwExtendedErrorCode"`
 	GwErrorCode           int           `json:"gwErrorCode"`
+	GwErrorReason         string        `json:"gwErrorReason"`
 	ClientUniqueId        string        `json:"clientUniqueId"`
 	PaymentOption         PaymentOption `json:"paymentOption"`
 	SessionToken          string        `json:"sessionToken"`

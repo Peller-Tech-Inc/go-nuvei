@@ -13,4 +13,5 @@ const (
 	CreateUser        NuveiAction = "/createUser.do"
 	AddUPOByTempToken NuveiAction = "/addUPOCreditCardByTempToken.do"
 	GetUPOs           NuveiAction = "/getUserUPOs.do"
+	DeleteUPO         NuveiAction = "/deleteUPO.do"
 )
